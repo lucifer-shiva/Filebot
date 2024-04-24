@@ -24,21 +24,21 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "29423039"))
+API_HASH = environ.get("API_HASH", "77e15ebefc8d9f9e5e4132ca3e76eba5")
+ADMINS = int(environ.get("ADMINS", "6465256721"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://Terabox1:Terabox@123@clone.ozf4izy.mongodb.net/?retryWrites=true&w=majority&appName=clone")
+CDB_NAME = environ.get("CDB_NAME", "TERABOX")
+DB_URI = environ.get("DB_URI", "mongodb+srv://Terabox:Terabox@123@cluster0.idnx5mi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "TERABOX")
 
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6848721704:AAHSaaGqdKR04GBE2AyKtOw_BW3EW8W15ZE")
+BOT_USERNAME = environ.get("BOT_USERNAME", "filestorelucifer_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
